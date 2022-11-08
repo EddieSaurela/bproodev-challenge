@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title> Creaation de Challenge </title>
+    <link rel="stylesheet" href="../assets/page1style.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2 style="text-align:center;" id="titre1">Creer un nouveau challenge</h2>
+    </div>
+
+    <form method="POST" action="treatment.php" id="form1">
+
+        <div class="div1">
+            <label for="champ1" class="form">Titre du challenge*</label> <br>
+            <input type="text" id="input1" class="form" name="champ1" placeholder=" Titre du challenge "
+                class="form-control" required><br>
+
+        </div>
+
+        <div class="div1">
+            <label for="champ2" class="form">Quel est la duree de votre challenge*</label> <br>
+            <input type="text" id="input2" class="form" name="champ2" placeholder=" Duree estimatif du challenge"
+                class="form-control" required>
+        </div>
+
+
+        <div class="div1">
+            <label for="champ3" class="form">Selectionne le niveau du challenge*</label> <br>
+            <select name="champ3" class="form" id="input3" placeholder=" Niveau du challenge" required>
+                <option value="1"> Faible </option>
+                <option value="2"> Moyen </option>
+                <option value="3"> Avance </option>
+            </select> </p>
+
+        </div>
+
+        <div class="div1">
+            <label for="champ4" class="form">Inserer l'image ou la maquette de votre challenge*</label> <br>
+            <input type="file" class="form" name="champ4" id="input4" multiple accept=".jpg,.doc,.docx,application/msword,
+             application/vnd.openxmlformats-officedocument.wordprocessingml.document,
+            image/*,.pdf,audio/*, video/*" placeholder="images ou maquettes du challenge (png.., jpg)" required
+                class="form-control">
+        </div>
+
+
+        <div class="div1">
+            <label for="champ7" class="form"> Inserez une resource utile a la comprehension de votre
+                challenge*</label> <br>
+            <input type="file" class="form" name="champ7" id="input5" multiple accept=".jpg,.doc,.docx,application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document,
+            image/*,.pdf,audio/*, video/*" name="champ5" placeholder=" Ressources du challenge (pdf, videos,audios"
+                required class="form-control">
+
+        </div> <br>
+
+        <div class="div1">
+            <label for="champ6" class="form">Decrivez votre challenge en quelques mots*</label> <br>
+            <textarea class="form" name="champ6" id="input6" placeholder=" Description detaille du challenge "
+                required></textarea>
+        </div>
+
+        <div class="div1">
+            <p id="text1"> Ces champs sont obligatoires* </p>
+            <p> <button id="but-champ"> Soumettre le challenge </button> </p>
+        </div>
+
+
+
+
+    </form>
+
+</body>
+
+</html>

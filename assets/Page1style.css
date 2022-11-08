@@ -1,0 +1,136 @@
+#form1 {
+    border: 3px solid white;
+    margin: 10%;
+    padding: 10px;
+}
+
+#titre1 {
+    margin-top: 90px;
+    margin-bottom: -70px;
+}
+
+.header {
+    display: center;
+}
+
+.form {
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50%;
+}
+
+#input1 {
+    width: 40%;
+}
+
+#input2 {
+    width: 40%;
+}
+
+#input3 {
+    width: 40%;
+}
+
+
+#input6 {
+    width: 40%;
+    height: 150px;
+}
+
+#text1 {
+    color: red;
+}
+
+#but-champ {
+    background-color: rgb(145, 232, 145);
+    padding: 10px;
+    color: white;
+    border-color: rgb(145, 232, 145);
+    border-radius: 5px;
+}
+
+@media(min-width:360px) and (max-width:640px) {
+    #form1 {
+        margin-left: 10px;
+    }
+
+    .div1 {
+        margin-left: -25px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}
+
+
+@media(min-width:400px) and (max-width:600px) {
+    #form1 {
+        margin-left: 90px;
+    }
+
+    .div1 {
+        margin-left: -55px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width:540px) and (max-width:720px) {
+    #form1 {
+        margin-left: 90px;
+    }
+
+    .div1 {
+        margin-left: 2px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width:600px) and (max-width:987px) {
+    #form1 {
+        margin-left: 150px;
+    }
+
+    .div1 {
+        margin-left: -7px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    #form1 {
+        margin-left: 150px;
+    }
+
+    .div1 {
+        margin-left: 50px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1366px) {
+    #form1 {
+        margin-left: 150px;
+    }
+
+    .div1 {
+        margin-left: 125px;
+    }
+
+    #but-champ {
+        margin-left: 50px;
+    }
+}

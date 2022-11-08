@@ -1,0 +1,162 @@
+#form2 {
+    border: 3px solid white;
+    margin: 10%;
+    padding: 10px;
+    height: 50%;
+}
+
+#titre2 {
+    margin-top: 90px;
+    margin-bottom: -70px;
+}
+
+.header {
+    display: center;
+}
+
+.form {
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50%;
+}
+
+#ch1 {
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#ch2 {
+    width: 30%;
+    height: 150px;
+    margin-top: 10;
+    margin-bottom: 10px;
+}
+
+#link1 {
+    text-decoration: none;
+    border: 2px solid rgb(145, 232, 145);
+    border-radius: 10px;
+    background-color: rgb(145, 232, 145);
+    padding: 10px;
+    color: white;
+}
+
+#divbut {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#link2 {
+    text-decoration: none;
+    border: 2px solid rgb(145, 232, 145);
+    border-radius: 10px;
+    background-color: rgb(145, 232, 145);
+    padding: 10px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+#divbut2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#text2 {
+    color: red;
+}
+
+#but2-champ {
+    background-color: rgb(145, 232, 145);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(145, 232, 145);
+}
+
+@media(min-width:360px) and (max-width:640px) {
+    #form2 {
+        margin-left: 10px;
+    }
+
+    .div {
+        margin-left: -25px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}
+
+
+@media(min-width:400px) and (max-width:600px) {
+    #form2 {
+        margin-left: 90px;
+    }
+
+    .div {
+        margin-left: -55px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:540px) and (max-width:720px) {
+    #form2 {
+        margin-left: 90px;
+    }
+
+    .div {
+        margin-left: 2px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:600px) and (max-width:987px) {
+    #form2 {
+        margin-left: 150px;
+    }
+
+    .div {
+        margin-left: -7px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    #form2 {
+        margin-left: 150px;
+    }
+
+    .div {
+        margin-left: 50px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1366px) {
+    #form2 {
+        margin-left: 150px;
+    }
+
+    .div {
+        margin-left: 125px;
+    }
+
+    #but-champ2 {
+        margin-left: 0px;
+    }
+}

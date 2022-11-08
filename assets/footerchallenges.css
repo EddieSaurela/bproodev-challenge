@@ -1,0 +1,63 @@
+#footer{
+    width: 100%;
+    background-color: rgb(101, 82, 247);
+    
+}
+
+#principal-section{
+    display:flex;
+}
+
+#div-foot1{
+    margin-left:15px;
+}
+
+#section-footer1ec1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-footer2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left:0px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#div-foot3{
+    display:flex-end;
+}
+
+#fb-icon{
+    height:30px;
+    width:30px;
+    length:30px;
+    margin-top:-25px;
+}
+
+#ytube-icon{
+    height:30px;
+    width:30px;
+    length:30px;
+    margin-top:-25px;
+}
+
+#github-icon{
+    height:30px;
+    width:30px;
+    length:30px;
+    margin-top:-25px;
+}
+
+#section-last{
+    text-decoration:none;
+    display:flex;
+    justify-content:space-around;
+    background-color: rgb(101, 82, 247);
+}
